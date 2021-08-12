@@ -127,11 +127,60 @@
 //     return !boolean;
 // }
 
-const eitherAreTrue=(bool_1, bool_2)=>{
-    let result = bool_1 || bool_2;
-    return result;
-};
-var outputFalse = eitherAreTrue(false, false);
-console.log('should be false:', outputFalse);
-var outputTrue = eitherAreTrue(true, false);
-console.log('should be true:', outputTrue);
+// const eitherAreTrue=(bool_1, bool_2)=>{
+//     let result = bool_1 || bool_2;
+//     return result;
+// };
+// var outputFalse = eitherAreTrue(false, false);
+// console.log('should be false:', outputFalse);
+// var outputTrue = eitherAreTrue(true, false);
+// console.log('should be true:', outputTrue);
+
+// const bothAreTrue = (bool_1, bool_2)=>{
+//     let result = bool_1 && bool_2;
+//     return result;
+// };
+// var outputTrue = bothAreTrue(true, true);
+// console.log('should be true:', outputTrue);
+
+// var outputFalse = bothAreTrue(false, true);
+// console.log('should be false:', outputFalse);
+
+// var storeIsOpen = true;
+// var isHungry = false;
+// var isThirsty = false;
+
+// let willGoToStore = storeIsOpen || (isHungry && isThirsty);
+// let willGoToStore1 = storeIsOpen && (isHungry || isThirsty);
+// console.log(willGoToStore);//true - 1.decides in brackets 2. outside, targets to 'true'
+// console.log(willGoToStore1);//false - //true - 1.decides in brackets 2. outside, targets to 'false'
+
+// function combination(bool_1, bool_2, bool_3) {
+//     // create a result variable
+//     // assign it to bool_1 AND either bool_2 OR bool_3
+//     // return the result variable
+//     var result = bool_1 && (bool_2 || bool_3);
+//     return result;
+//   }
+
+
+// const areEqual = (param_1, param_2)=>{
+//     let result = param_1 === param_2;
+//     return result;
+// };
+
+// var outputFalse = areEqual(0, false);
+// console.log('should be false:', outputFalse);
+
+// var declared = 'something';
+// var undefinedDoesNotMatch = declared !== undefined;
+// console.log('undefinedDoesNotMatch:',undefinedDoesNotMatch);
+
+// const areNotEqual=(param_1, param_2) => {
+//     let result = param_1 !== param_2;
+//     return result;
+// };
+// var outputFalse = areNotEqual(7, 3 + 4);
+// console.log('should be false:', outputFalse);//false, they are equal!
+
+//Stopped here: 'Working on Numbers', will be back to work soon
